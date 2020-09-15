@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name" translatable="false">AppComponentes2H</string>
+    <string name="insira_seu_nome" translatable="false">Insira seu nome:</string>
+    <string name="sexo" translatable="false">Sexo:</string>
+    <string name="feminino" translatable="false">Feminino</string>
+    <string name="masculino" translatable="false">Masculino</string>
+    <string name="selecione_suas_prefer_ncias" translatable="false">Selecione suas preferências:</string>
+    <string name="livros" translatable="false">Livros</string>
+    <string name="esportes" translatable="false">Esportes</string>
+    <string name="praia" translatable="false">Praia</string>
+    <string name="estudar" translatable="false">Estudar</string>
+    <string name="estado" translatable="false">Estado:</string>
+    <string name="entrar" translatable="false">Entrar</string>
+    <string name="sair" translatable="false">Sair</string>
+    <array name="estado">
+        <item>São Paulo</item>
+        <item>Rio de Janeiro</item>
+        <item>Minas Gerais</item>
+        <item>Pernambuco</item>
+        <item>Maranhão</item>
+        <item>Paraná</item>
+    </array>
+</resources>
