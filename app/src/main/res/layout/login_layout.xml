@@ -4,33 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="20dp"
     android:orientation="vertical"
-    tools:context=".Login_Activity">
+    tools:context=".Login_Activity"
+    android:background="@color/colorPrimary">
 
     <ImageView
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
         android:layout_marginBottom="20dp"
         android:src="@drawable/user" />
 
     <EditText
-        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
         android:background="@drawable/botao"
-        android:hint="E-mail do usuário: "
+        android:hint="E-mail"
         android:inputType="textEmailAddress"
         android:maxLength="50"
         android:textSize="25sp" />
 
     <EditText
-        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="40dp"
         android:background="@drawable/botao"
-        android:hint="Senha do usuário: "
+        android:hint="Senha"
         android:inputType="textPassword"
         android:maxLength="20"
         android:textSize="25sp" />
@@ -57,5 +61,6 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:text="Esqueceu sua senha?"
-        android:textColor="#000" />
+        android:textColor="#000"
+        android:textSize="20sp"/>
 </LinearLayout>

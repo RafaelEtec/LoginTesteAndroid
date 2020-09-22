@@ -7,4 +7,6 @@
     <color name="corAppFacebook">#395693</color>
     <color name="corAppWhatsapp">#56AF28</color>
     <color name="corAppTwitter">#1C9CEA</color>
+    <color name="vectors">#fff</color>
+    <color name="textoOp">#232323</color>
 </resources>
