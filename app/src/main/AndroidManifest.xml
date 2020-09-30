@@ -10,7 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Whattsapp_Activity"></activity>
-        <activity android:name=".Facebook_Activity" />
+        <activity android:name=".Facebook_Activity">
+
+        </activity>
         <activity android:name=".MenuPrincipal_Activity" />
         <activity
             android:name=".SplashActivity"
@@ -23,7 +25,8 @@
         </activity>
         <activity
             android:name=".Login_Activity"
-            android:theme="@style/TemaSemBarra" />
+            android:theme="@style/TemaSemBarra">
+        </activity>
         <activity android:name=".MainActivity" />
     </application>
 
