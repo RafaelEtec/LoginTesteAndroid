@@ -19,7 +19,7 @@
     <item
         android:id="@+id/mPesquisar"
         android:icon="@drawable/ic_search"
-        android:title="Presquisar"
+        android:title="Pesquisar"
         app:showAsAction="never" />
     <item
         android:id="@+id/mVoltar"

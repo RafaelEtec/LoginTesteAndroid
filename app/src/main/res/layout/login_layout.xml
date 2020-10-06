@@ -17,6 +17,7 @@
         android:src="@drawable/user" />
 
     <EditText
+        android:id="@+id/txtEmailUsu"
         android:gravity="center"
         android:layout_gravity="center_horizontal"
         android:layout_width="300dp"
@@ -28,6 +29,7 @@
         android:textSize="25sp" />
 
     <EditText
+        android:id="@+id/txtSenhaUsu"
         android:gravity="center"
         android:layout_gravity="center_horizontal"
         android:layout_width="300dp"
@@ -40,8 +42,7 @@
         android:textSize="25sp" />
 
     <Button
-        android:onClick="entrarMenu"
-        android:id="@+id/buttonEntrar"
+        android:id="@+id/btEntrar"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -51,8 +52,7 @@
         android:text="Entrar" />
 
     <Button
-        android:onClick="sair"
-        android:id="@+id/buttonSair"
+        android:id="@+id/btSair"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

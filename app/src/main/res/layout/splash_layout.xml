@@ -7,10 +7,11 @@
     android:background="@drawable/cor_fundo"
     android:gravity="center_vertical"
     android:orientation="vertical"
-    tools:context=".SplashActivity">
+    tools:context=".SplashActivity"
+    android:id="@+id/bgSplash">
 
     <ImageView
-        android:onClick="splashLogin"
+        android:id="@+id/imvSplash"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"

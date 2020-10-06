@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">AppComponentes2H</string>
+    <string name="app_name" translatable="false">Rafael Goulart App</string>
     <string name="insira_seu_nome" translatable="false">Insira seu nome:</string>
     <string name="sexo" translatable="false">Sexo:</string>
     <string name="feminino" translatable="false">Feminino</string>
