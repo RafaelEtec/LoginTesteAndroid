@@ -31,6 +31,7 @@ public class Login_Activity extends AppCompatActivity {
 
                 if (email.equals("Rafael@gmail.com") && senha.equals("etecia")) {
                     startActivity(new Intent(getApplicationContext(), MenuPrincipal_Activity.class));
+                    txtEmailUsu.requestFocus();
                 }else {
                     Toast.makeText(getApplicationContext(),"Usuário ou senha Inválidos!!!",Toast.LENGTH_SHORT).show();
                 }
