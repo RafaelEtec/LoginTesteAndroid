@@ -29,7 +29,7 @@ public class Login_Activity extends AppCompatActivity {
                 String email = txtEmailUsu.getText().toString();
                 String senha = txtSenhaUsu.getText().toString();
 
-                if (email.equals("Rafael@gmail.com") && senha.equals("etecia")) {
+                if (email.equals("etecia") && senha.equals("etecia")) {
                     startActivity(new Intent(getApplicationContext(), MenuPrincipal_Activity.class));
                     txtEmailUsu.requestFocus();
                 }else {
